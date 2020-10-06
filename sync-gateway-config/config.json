@@ -1,0 +1,36 @@
+{
+    "log": [
+        "*"
+    ],
+    "databases": {
+        "cbooksync": {
+            "server": "http://localhost:8091",
+            "bucket": "cbook",
+            "username": "cbook",
+            "password": "cbook",
+            "enable_shared_bucket_access": true,
+            "import_docs": true,
+            "num_index_replicas": 0,
+            "users": {
+                "GUEST": {
+                    "disabled": false,
+                    "admin_channels": [
+                        "*"
+                    ]
+                }
+            }
+        }
+    },
+    "CORS": {
+        "Origin": [
+            "http://127.0.0.1:8887"
+        ],
+        "LoginOrigin": [
+            "http://127.0.0.1:8887"
+        ],
+        "Headers": [
+            "Content-Type"
+        ],
+        "MaxAge": 17280000
+    }
+}

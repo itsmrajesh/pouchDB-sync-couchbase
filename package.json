@@ -1,0 +1,30 @@
+{
+  "name": "pouchdb-sync-couchbase",
+  "version": "1.0.0",
+  "description": "Demo Project of syncing data between PouchDB and Couchbase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmrajesh/pouchDB-sync-couchbase.git"
+  },
+  "keywords": [
+    "pouchdb",
+    "couchbase",
+    "couchbase",
+    "sync",
+    "gateway"
+  ],
+  "author": "Peter Mbanugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmrajesh/pouchDB-sync-couchbase/issues"
+  },
+  "homepage": "https://github.com/itsmrajesh/pouchDB-sync-couchbase#readme",
+  "dependencies": {
+    "@hoodie/store-client": "^8.3.0",
+    "pouchdb": "^7.2.2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "logging": {
+    "console": {
+      "log_keys": [
+        "*"
+      ]
+    }
+  },
+  "CORS": {
+    "Origin": [
+      "http://127.0.0.1:8888"
+    ],
+    "LoginOrigin": [
+      "http://127.0.0.1:8888"
+    ],
+    "Headers": [
+      "Content-Type"
+    ],
+    "MaxAge": 17280000
+  },
+  "databases": {
+    "db": {
+      "server": "couchbase://localhost",
+      "username": "iexd",
+      "password": "123456",
+      "bucket": "cbook",
+      "users": {
+        "GUEST": {
+          "disabled": false,
+          "admin_channels": [
+            "*"
+          ]
+        }
+      },
+      "allow_conflicts": false,
+      "revs_limit": 20
+    }
+  }
+}
