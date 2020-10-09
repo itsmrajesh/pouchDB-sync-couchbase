@@ -1,7 +1,7 @@
 # PouchDB sync with Couchbase
 
 ## Requirements
-- Refer this https://docs.couchbase.com/sync-gateway/current/gs-sgw-prereqs.html
+- Start here https://docs.couchbase.com/sync-gateway/current/gs-sgw-prereqs.html
 - Couchbase server
 - Couchbase sync gateway https://docs.couchbase.com/sync-gateway/current/gs-sgw-install.html
 - Web server like 'web server for chrome'
