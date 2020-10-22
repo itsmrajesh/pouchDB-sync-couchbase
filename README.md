@@ -17,6 +17,8 @@ npm install --save pouchdb
 
 npm install --save @hoodie/store-client
 
+npm install
+
 ```
 
 - Setup couchbase bucket for syncing [Click here](https://docs.couchbase.com/sync-gateway/current/gs-sgw-svr-cfg.html#step-2create-rbac-user)
